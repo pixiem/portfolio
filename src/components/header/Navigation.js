@@ -5,9 +5,7 @@ const Navigation = () => {
     return (
         <header class="l-header">
         <nav class="nav bd-grid">
-            <div>
-                <a href="#" class="nav__logo">PIXIEM</a>
-            </div>
+           
 
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list">

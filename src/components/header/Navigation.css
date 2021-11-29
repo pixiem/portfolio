@@ -113,6 +113,7 @@ img{
 }
 .l-header{
   width: 100%;
+  padding-bottom: 20px;
   position: fixed;
   top: 0;
   left: 0;
@@ -125,13 +126,23 @@ img{
 .nav{
   height: var(--header-height);
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   font-weight: var(--font-semi);
 }
 @media screen and (max-width: 768px){
-  .section-title{
+  .downloadresume{
+    margin-bottom: 20px;
+
+    border: none;
+    padding: 15px;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+  }
+  .l-header{
   
+    border-bottom: 1px solid #4070f4;
    
   }
   .nav__menu{
@@ -143,7 +154,7 @@ img{
    
   }
   .nav__list a{
-    color: #4070f4;
+    color: black;
 
    margin-right: 10px;
   }
@@ -434,7 +445,15 @@ img{
   .nav__link{
     color: var(--second-color);
   }
+  .downloadresume{
+    margin-bottom: 20px;
 
+    border: none;
+    padding: 15px;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+  }
   .home{
     height: 100vh;
     padding-top: 80px;
@@ -474,7 +493,7 @@ img{
   }
   .work__container{
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2,1fr);
+    grid-template-rows: repeat(1,1fr);
     column-gap: 2rem;
   }
   .contact__form{
